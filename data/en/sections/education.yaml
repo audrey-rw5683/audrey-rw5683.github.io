@@ -46,7 +46,7 @@ degrees:
   timeframe: 2013-2018
   institution:
     name: Capital Medical University
-    url: "#"
+    # url: "#"
     logo: /images/sections/education/cmu.png
     # Can optionally show a different logo for dark theme
     # darklogo: /images/sections/education/science_college.png
