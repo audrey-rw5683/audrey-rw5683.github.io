@@ -7,7 +7,7 @@
   &:hover,
   &:focus {
     box-shadow: $box-shadow;
-    border: 1px solid get-light-color('bg-primary');
+    border: 1px solid get-light-color('bg-primary-inverse');
     @include transition();
   }
 
@@ -99,7 +99,7 @@ html[data-theme='dark'] {
 
     &:hover,
     &:focus {
-      border: 1px solid rgba(get-dark-color('accent-color'), 0.2);
+      border: 1px solid get-dark-color('accent-color');
     }
     .card-footer {
       background: get-dark-color('bg-card') !important;

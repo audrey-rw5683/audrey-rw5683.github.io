@@ -1,4 +1,5 @@
 .skills-section {
+
   .card {
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
@@ -10,7 +11,7 @@
       height: fit-content;
       padding: 0.7rem;
       padding-bottom: 0rem;
-      border-bottom: 0.0625rem solid rgba(get-light-color('accent-color'), 0.4);
+      // border-bottom: 0.0625rem solid rgba(get-light-color('accent-color'), 0.4);
 
       .card-img-xs {
         margin-right: 0.5rem;
@@ -18,10 +19,10 @@
       }
     }
 
-    .card-body {
-      padding-top: 0.2rem;
-      padding-left: 0.7rem;
-    }
+    // .card-body {
+    //   padding-top: 0.2rem;
+    //   padding-left: 0.7rem;
+    // }
   }
 
   @include media('<=medium') {
@@ -36,10 +37,27 @@
 
 html[data-theme='dark'] {
   .skills-section {
+    padding-left: 2rem;
+    // display: inline-block; // 使用 inline-block 让卡片左右相邻排列
+    width: calc(50% - 0.5rem); // 计算卡片宽度，减去右边距
     .card {
       .card-head {
         background-color: get-dark-color('bg-card') !important;
-        border-bottom: 0.0625rem solid rgba(get-dark-color('accent-color'), 0.4);
+        // border-bottom: 0.0625rem solid rgba(get-dark-color('accent-color'), 0.4);
+      }
+    }
+  }
+}
+
+html[data-theme='light'] {
+  .skills-section {
+    padding-left: 2rem;
+    // display: inline-block; 
+    width: calc(50% - 0.5rem); 
+    .card {
+      .card-head {
+        background-color: get-light-color('bg-card') !important;
+        // border-bottom: 0.0625rem solid rgba(get-dark-color('accent-color'), 0.4);
       }
     }
   }
