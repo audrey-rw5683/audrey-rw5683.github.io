@@ -6,6 +6,7 @@
     &:focus {
       border-left: 2px solid get-light-color('accent-color');
     }
+    color: get-light-color('text-color');
   }
 
   .education-info-table {
@@ -118,6 +119,7 @@
               th {
                 .course-name-header {
                   width: 50%;
+                  color: get-light-color('text-color');
                 }
               }
             }
@@ -133,6 +135,7 @@
           .custom-section {
             .custom-content {
               padding-bottom: 0.5em;
+              color: get-light-color('text-color');
             }
           }
         }
@@ -183,6 +186,7 @@ html[data-theme='dark'] {
       &:focus {
         border-left: 2px solid get-dark-color('accent-color');
       }
+    color: get-dark-color('text-color');
     }
 
     .education-info-table {
