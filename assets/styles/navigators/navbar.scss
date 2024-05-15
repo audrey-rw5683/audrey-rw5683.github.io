@@ -8,6 +8,7 @@
     color: get-dark-color('accent-color') !important;
     border-bottom: 2px solid get-dark-color('accent-color') !important;
     background: rgba(get-dark-color('accent-color'), 0.1);
+    @include transition();
   }
 }
 

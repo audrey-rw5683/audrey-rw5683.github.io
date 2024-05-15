@@ -6,7 +6,6 @@
     &:focus {
       border-left: 2px solid get-light-color('accent-color');
     }
-    color: get-light-color('text-color');
   }
 
   .education-info-table {
@@ -90,6 +89,7 @@
 
           h5 {
             margin-bottom: 0.3rem;
+            color: get-light-color('text-color');
           }
 
           .timeframe {
@@ -214,13 +214,18 @@ html[data-theme='dark'] {
             border-bottom: 1px solid get-dark-color('bg-primary');
             border-right: 1px solid get-dark-color('bg-primary');
 
+            h5 {
+              margin-bottom: 0.3rem;
+              color: get-dark-color('text-color');
+            }
+
             .timeframe {
               color: get-dark-color('muted-text-color');
             }
 
             .taken-courses {
               table {
-                tr,
+                tr ,
                 td,
                 th {
                   color: get-dark-color('text-color');
