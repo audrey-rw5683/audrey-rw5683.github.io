@@ -8,8 +8,8 @@ image: "images/author/avatar.png"
 contactInfo:
   email: "audrey.rw5683@gmail.com"
   phone: "+1 438-357-7475"
-  github: https://github.com/audrey-rw5683
-  linkedin: Audrey
+  github: audrey-rw5683
+  linkedin: /ran-wang-audrey
   #researchgate: john-doe
 
 # some summary about what you do
