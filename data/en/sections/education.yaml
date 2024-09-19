@@ -4,17 +4,17 @@ section:
   id: education
   template: sections/education.html # Use "sections/education-alt.html for alternate template.
   enable: true
-  weight: 2
+  weight: 5
   showOnNavbar: true
   # Can optionally hide the title in sections
   # hideTitle: true
 
 degrees:
-- name: B.Sc. in Computer Science
+- name: 
   icon: fa-graduation-cap
   timeframe: 2023-Present
   institution:
-    name: The University of British Columbia 
+    name: B.Sc. in Computer Science, The University of British Columbia 
     # url: "#"
     logo: /images/sections/education/ubc.png
     # Can optionally show a different logo for dark theme
@@ -25,27 +25,27 @@ degrees:
     outOf: 4
   takenCourses: #(optional)
     # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
-    showGrades: true
-    collapseAfter: 3
+    showGrades: false
+    collapseAfter: 10
     courses:
     - name: Data Structures and Algorithm
       achieved: 3.75
       outOf: 4
-    - name: Network Security
+    - name: Software Design
       achieved: 3.80
       outOf: 4
-    - name: Operating System
+    - name: Applied Machine Learning
       achieved: 3.80
       outOf: 4
-    - name: Artificial Intelligent
+    - name: Computer System
       achieved: 3.80
       outOf: 4
 
-- name: Bachelor of Medicine in Clinical Medicine
+- name: 
   icon: fa-graduation-cap
   timeframe: 2013-2018
   institution:
-    name: Capital Medical University
+    name: Bachelor of Medicine, Capital Medical University
     # url: "#"
     logo: /images/sections/education/cmu.png
     # Can optionally show a different logo for dark theme
@@ -54,4 +54,21 @@ degrees:
     scale: GPA
     achieved: 3.76
     outOf: 4
+  takenCourses: #(optional)
+    # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
+    showGrades: false
+    collapseAfter: 4
+    courses:
+    - name: Clinical Statistics
+      achieved: 3.75
+      outOf: 4
+    - name: Medical Imaging
+      achieved: 3.80
+      outOf: 4
+    - name: Anatomy
+      achieved: 3.80
+      outOf: 4
+    - name: Sugery
+      achieved: 3.80
+      outOf: 4
 

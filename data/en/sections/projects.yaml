@@ -3,7 +3,7 @@ section:
   name: Projects
   id: projects
   enable: true
-  weight: 5
+  weight: 3
   showOnNavbar: true
   # Can optionally hide the title in sections
   # hideTitle: true
@@ -21,20 +21,32 @@ section:
 
 # your projects
 projects:
+
+- name: OnSnow 
+  #logo: /images/sections/projects/tensorflow.png
+  role: Developer
+  timeline: "Sept 2024"
+  repo: 
+  #url: ""
+  summary: A dynamic Social Snowboarding Fan Forum site using Django Framework and RESTful APIs, updating latest ski center conditions and events, and fostering a community that promotes a healthy, active lifestyle to public.
+  tags: ["Full-stack", "Hackathon"]
+
+- name: Heart Attack Prediction ML Model 
+  #logo: /images/sections/projects/tensorflow.png
+  role: Developer
+  timeline: "Aug 2024"
+  repo: https://github.com/audrey-rw5683/HeartAttackPrediction
+  #url: ""
+  summary: Improved early disease detection and patient care by conducting exploratory data analysis (EDA) and training a machine learning model to predict potential heart attacks using Python libraries.
+  tags: ["Machine Learning", "Data Science","Python"]
+
 - name: Patient Tracking System
   #logo: /images/sections/projects/kubernetes.png
   role: Developer
   timeline: "Jan 2024 - Apr 2024"
   repo: https://github.com/audrey-rw5683/PatientTracker # If your project is a public repo on GitHub, then provide this link. it will show star count.
   #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
-  summary: Production-Grade Container Scheduling and Management.
-  tags: ["professional", "kubernetes", "cloud"]
+  summary: A patient tracking system application to strengthen clinical trial protocol adherence by providing timely alerts to doctors about upcoming patient follow-ups
+  tags: ["Java", "GUI", "Unit tests"]
 
-- name: Diabetes Detection Model
-  #logo: /images/sections/projects/tensorflow.png
-  role: Team Leader
-  timeline: "Jan 2024 - Apr 2024"
-  repo: https://github.com/audrey-rw5683/dsci-100-2023w2-group-002-2
-  #url: ""
-  summary: An Open Source Machine Learning Framework for Everyone.
-  tags: ["professional", "machine-learning"]
+

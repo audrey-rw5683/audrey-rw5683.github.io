@@ -21,24 +21,20 @@ experiences:
     #overview: Example Co. is a widely recognized company for cloud-native development. It builds tools for Kubernetes.
   positions:
 
-  - designation: SAS Programmer
-    start: Jan 2023
+  - designation: Clinical Data Administrator
+    start: Jul 2020
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    end: 
+    # give some points about what was your responsibilities at the company.
     responsibilities:
+    - Ensured data meet QA standards by utilizing SQL and SAS programming to send 400-500 queries per month for problematic data and reviewing results at project milestones.
+    - Initiated d10 cardiovascular stent clinical projects within 4 years by collaborating with sponsors, drafting case report forms (CRFs) based on CDISC standards, and configuring the electronic data capture (EDC) system.
     - Develop and maintain SAS programs to clean, validate, and analyze current clinical trial data
     - Create and maintain standard macros, templates, and programs for data manipulation and reporting
     - Collaborate with biostatisticians and data managers to design analysis datasets and statistical analysis plans (SAPs)
-
-  - designation: Data Management
-    start: Jul 2020
-    # don't provide end date if you are currently working there. It will be replaced by "Present"
-    end: Dec 2022
-    # give some points about what was your responsibilities at the company.
-    responsibilities:
-    - Oversee data validation processes at project nodes, utilizing SQL and SAS programming to query problematic data efficiently. 
-    - Collaborate with sponsors to initiate 10 cardiovascular stent clinical projects within 3 years, contributing to the development of case report forms and data management plans. 
-    - Identify and analyze bugs in existing databases, closely liaising with the IT department to enhance database functionality. 
-    - Facilitate technical training sessions during bi-weekly meetings to enhance the competencies and teamwork efficiency of new employees. 
-    - Stay abreast of industry advancements by obtaining the latest Good Clinical Practice (GCP) certificate and SAS basic programming certificate.
+    - Maintained optimal database functionality by testing existing databases and closely liaising with the IT department. 
+    - Hosted technical training sessions during bi-weekly meetings to enrich domain knowledge and support team connection among new employees.
+    - Stay aligned industry advancements by obtaining the latest Good Clinical Practice (GCP) certificate and SAS basic programming certificate.
 
 
 
@@ -56,7 +52,7 @@ experiences:
     start: Nov 2017
     end: Dec 2017
     responsibilities:
-    - Intern in the Surgery, Cardiology, and Ophthalmology department
+    - Intern in the Surgery, Cardiology, and Ophthalmology department.
 
 - company:
     name: Xuanwu Hospital
@@ -71,6 +67,6 @@ experiences:
     start: Sept 2016
     end: Jun 2018
     responsibilities:
-    - Prescribed medications, administered treatment, and provided follow-up care to 4 patients per day based on examination results
-    - Completed medical documentation in detail and actively engaged in operation observations
+    - Prescribed medications, administered treatment, and provided follow-up care to 4 patients per day based on examination results.
+    - Completed medical documentation in detail and actively engaged in operation observations.
 

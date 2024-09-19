@@ -3,7 +3,7 @@ section:
   name: Skills
   id: skills
   enable: true
-  weight: 3
+  weight: 2
   showOnNavbar: true
 
   # Can optionally hide the title in sections
@@ -15,46 +15,46 @@ skills:
 - name: C++
   logo: /images/sections/skills/c++.png
   summary: "C++"
-  url: "https://kubernetes.io/"
+  # url: "https://kubernetes.io/"
 
 - name: Java
   logo: /images/sections/skills/j.png
-  summary: "Capable of deploying, managing application on Kubernetes. Experienced in writing Kubernetes controllers for CRDs."
-  url: "https://kubernetes.io/"
+
+
 
 - name: R
   logo: /images/sections/skills/r.png
-  summary: "Capable of deploying, managing application on Kubernetes. Experienced in writing Kubernetes controllers for CRDs."
-  url: "https://kubernetes.io/"
+
+
 
 
 - name: React
   logo: /images/sections/skills/react.png
-  summary: "Experienced with git-based development. Mostly, use Github. Also, have experience in working with GitLab."
-  url: "https://git-scm.com/"
+
+
 
 - name: JavaScript
   logo: /images/sections/skills/js.png
-  summary: "Experienced with git-based development. Mostly, use Github. Also, have experience in working with GitLab."
-  url: "https://git-scm.com/"
+
+
 
 - name: Python
   logo: /images/sections/skills/python.png
-  summary: "Experienced with git-based development. Mostly, use Github. Also, have experience in working with GitLab."
-  url: "https://git-scm.com/"
+
+
 
 - name: SAS
   logo: /images/sections/skills/sas.png
-  summary: "Experienced with git-based development. Mostly, use Github. Also, have experience in working with GitLab."
-  url: "https://git-scm.com/"
+
+
 
 - name: SQL
   logo: /images/sections/skills/sql.png
-  summary: "Experienced with git-based development. Mostly, use Github. Also, have experience in working with GitLab."
-  url: "https://git-scm.com/"
 
-- name: Git
+
+
+- name: Git/GitHub
   logo: /images/sections/skills/git.png
-  summary: "Experienced with git-based development. Mostly, use Github. Also, have experience in working with GitLab."
-  url: "https://git-scm.com/"
+
+
 

@@ -19,7 +19,9 @@ section:
 # resume: "files/resume.pdf"
 
 # a summary about you
-summary: 'My passion lies in integrating computer science with medicine, aiming to develop more tools tailored to clinical needs, particularly in the healthcare sector and clinical trial domains.'
+summary: 'As a 3rd year CS student and data administrator with 4-year experience in clinical trial, 
+I thrive on continuously learning and tackling challenges. 
+With a solid medical background and fresh knowledge in computer science, I am passionate about healthcare-related technologies to improve life quality.'
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
@@ -49,20 +51,24 @@ resourceLinks:
 badges:
 - type: certification
   name: Certified SAS Specialist
-  url: "https://www.credly.com/badges/4886fdfa-ce68-4979-a133-6373c3dc75bc/linked_in_profile"
+  # url: "https://www.credly.com/badges/4886fdfa-ce68-4979-a133-6373c3dc75bc/linked_in_profile"
   badge: "https://images.credly.com/images/caa44bb1-cd83-44ad-bb28-5784e6a7a95a/new_certification_badge_image.png"
 
+- type: certification
+  name: AWS Certified Cloud Practitioner
+  # url: "https://www.credly.com/badges/4886fdfa-ce68-4979-a133-6373c3dc75bc/linked_in_profile"
+  badge: "https://cdn-ckjba.nitrocdn.com/XvHIXtRQMUYzLjoXbfBpiwAcydcSSOVj/assets/images/optimized/rev-81f45bc/www.ciat.edu/wp-content/uploads/2020/12/AWS-Certified_Cloud-Practitioner_512x512.bc006f14f986fa4f3ca238b0b62be458ce1fb5ce.png"
+
+- type: certification
+  name: French DELF
+  # url: "https://www.credly.com/badges/4886fdfa-ce68-4979-a133-6373c3dc75bc/linked_in_profile"
+  badge: "https://www.alliance-francaise.ca/images/articles/exm/diplomas/delf600.png"
 
 
-- type: soft-skill-indicator
-  name: Team Work
-  percentage: 90
-  color: yellow
-
-- type: soft-skill-indicator
-  name: Hard Working
-  percentage: 85
-  color: orange
+# - type: soft-skill-indicator
+#   name: Hard Working
+#   percentage: 85
+#   color: orange
 
 # you can also provide color code instead of the color name
 # - type: soft-skill-indicator
